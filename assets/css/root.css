@@ -1,0 +1,86 @@
+:root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    --fs-2xl: 40px;
+    --fs-3xl: 48px;
+    --fs-4xl: 64px;
+
+    --white: #ffffff;
+    --light-blue: #0d76ff;
+    --light-green: #37eebc;
+    --grey: #5f5f5f;
+    --black: #010101;
+    --gredient: linear-gradient(103.58deg, #0078ff 6.83%, #37eebc 109.09%);
+    --dark-blue: #001429;
+    --dark-grey: #0F3547;
+    --border-gray: #dcdcdc;
+}
+
+/* /====Font-Size=====/  */
+.fs-14 {
+    font-size: var(--fs-sm);
+}
+
+.fs-16 {
+    font-size: var(--fs-md);
+}
+
+.fs-20 {
+    font-size: var(--fs-lg);
+}
+
+.fs-24 {
+    font-size: var(--fs-xl);
+}
+
+.fs-40 {
+    font-size: var(--fs-2xl);
+}
+
+.fs-48 {
+    font-size: var(--fs-3xl);
+}
+
+.fs-64 {
+    font-size: var(--fs-4xl);
+}
+
+/* /======Color======*/
+*/ .color-white {
+    color: var(--white);
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-light-blue {
+    color: var(--light-blue);
+}
+
+.color-light-green {
+    color: var(--light-green);
+}
+
+.color-grey {
+    color: var(--grey);
+}
+
+.background-gredient {
+    background: var(--gredient);
+}
+
+.background-dark-blue {
+    background: var(--dark-blue);
+}
+
+.dark-grey {
+    background: var(--dark-grey);
+}
+@media(max-width:575.99px){
+    :root{
+        --fs-3xl: 32px;
+    }
+}
